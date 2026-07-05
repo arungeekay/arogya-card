@@ -112,7 +112,7 @@ export default function Cluster() {
                 {prettySector(score.sector)}
               </span>{' '}
               peers in <span className="font-medium text-ink">{score.city}</span>.
-              A vital is only weak if it lags the local cluster — not the whole
+              A vital is only weak if it lags the local cluster - not the whole
               country.
             </p>
           </div>

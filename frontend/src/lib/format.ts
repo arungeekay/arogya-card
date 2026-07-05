@@ -2,7 +2,7 @@ import type { Bucket } from '../types'
 
 // Format rupees in Indian lakh/crore. Input is rupees.
 export function inr(rupees: number): string {
-  if (!isFinite(rupees)) return '—'
+  if (!isFinite(rupees)) return '-'
   const abs = Math.abs(rupees)
   if (abs >= 1e7) return `₹${(rupees / 1e7).toFixed(2)} Cr`
   if (abs >= 1e5) return `₹${(rupees / 1e5).toFixed(1)} L`

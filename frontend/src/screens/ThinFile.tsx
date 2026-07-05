@@ -61,7 +61,7 @@ export default function ThinFile() {
           <p className="text-muted mt-1">
             <span className="font-medium text-ink">{score.name}</span> has{' '}
             {score.coverage_months} months of coverage and{' '}
-            {pct(score.confidence)} confidence — this is not a thin file.
+            {pct(score.confidence)} confidence - this is not a thin file.
           </p>
           <p className="text-muted text-sm mt-3">
             AROGYA never issues an automatic NO-GO purely for missing data. Thin
@@ -88,12 +88,12 @@ export default function ThinFile() {
         <div className="flex items-start justify-between gap-4 flex-wrap">
           <div>
             <h1 className="text-xl font-semibold text-ink">
-              Thin file — refer, don't reject
+              Thin file - refer, don't reject
             </h1>
             <p className="text-muted text-sm mt-1 max-w-xl">
               {score.name} filed only {score.coverage_months} months of history.
               The low score is driven by <span className="font-medium">data
-              availability</span>, not adverse signals — so AROGYA returns REFER
+              availability</span>, not adverse signals - so AROGYA returns REFER
               with a prescription, never an automatic NO-GO.
             </p>
           </div>

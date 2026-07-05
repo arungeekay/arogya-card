@@ -104,7 +104,7 @@ export default function Checkup() {
             <p className="text-muted mt-1">
               Enter a GSTIN. AROGYA pulls GST, bank (Account Aggregator),
               electricity and EPFO signals, then scores five vitals into a
-              unified health card — no balance sheet required.
+              unified health card - no balance sheet required.
             </p>
           </div>
 

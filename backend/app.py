@@ -1,4 +1,4 @@
-"""AROGYA CARD backend (BUILD_SPEC §6.2) — Track 3 MSME alt-data health score.
+"""AROGYA CARD backend (BUILD_SPEC §6.2) - Track 3 MSME alt-data health score.
 
 Orchestrates the mock data-source services into a five-vital health card, unified score, bucket,
 confidence and Verification Triangle. Every score carries reason codes; thin files get low
@@ -141,8 +141,8 @@ def appraisal_note(gstin: str):
         pillars=[dict(name=v["name"], value=v["value"]) for v in p["vitals"]],
         triangle_summary=p["triangle"]["summary"],
         assessment=("Behavioural signals are internally consistent." if p["triangle"]["overall"] == "closed"
-                    else "Verification Triangle anomaly detected — corroborate before sanction."),
-        refer_reason=("Thin file — corroborate with additional data (see prescription)." if p["thin_file"] else None),
+                    else "Verification Triangle anomaly detected - corroborate before sanction."),
+        refer_reason=("Thin file - corroborate with additional data (see prescription)." if p["thin_file"] else None),
     ), product="AROGYA")
     return dict(document_type="Credit appraisal note", gstin=gstin, text=text, prescription=prescription)
 

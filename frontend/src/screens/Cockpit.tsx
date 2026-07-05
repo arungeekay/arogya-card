@@ -86,7 +86,7 @@ export default function Cockpit() {
               Underwriter cockpit
             </h1>
             <p className="text-muted text-sm mt-1">
-              {score.name} · {prettySector(score.sector)} · {score.city} —
+              {score.name} · {prettySector(score.sector)} · {score.city} -
               reason codes, auditable factors, scenario testing and a drafted
               appraisal note.
             </p>

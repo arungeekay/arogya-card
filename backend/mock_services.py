@@ -1,7 +1,7 @@
 """Mock external data-source services (BUILD_SPEC §6.1).
 
-These read as real integrations — GST filing history, Account-Aggregator statement, electricity
-board, EPFO — with realistic request/response JSON and ~400 ms artificial latency so the vitals
+These read as real integrations - GST filing history, Account-Aggregator statement, electricity
+board, EPFO - with realistic request/response JSON and ~400 ms artificial latency so the vitals
 animation lands. In phase 2 these swap to the IDBI sandbox APIs; the response shapes are chosen
 to match those contracts. All data is derived from the borrower's synthetic behavioural series.
 """

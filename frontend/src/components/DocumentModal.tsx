@@ -83,7 +83,7 @@ export default function DocumentModal({
               <div>
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-semibold uppercase tracking-wide text-rag-amber bg-rag-amber/12 px-2 py-0.5 rounded-full">
-                    Draft — for officer review
+                    Draft - for officer review
                   </span>
                 </div>
                 <h3 className="text-ink font-semibold mt-1.5">{title}</h3>

@@ -125,7 +125,7 @@ export default function TriangleScreen() {
           </span>
           <div className="flex-1">
             <div className="text-lg font-semibold text-rag-red">
-              {inr(score.exposure_at_risk)} facility at risk — invoice-inflation
+              {inr(score.exposure_at_risk)} facility at risk - invoice-inflation
               pattern detected.
             </div>
             <div className="text-sm text-slate-700 mt-0.5">

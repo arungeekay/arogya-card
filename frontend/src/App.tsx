@@ -118,7 +118,7 @@ export default function App() {
         {screen === 'cockpit' && <Cockpit />}
       </main>
       <footer className="text-center text-xs text-muted py-4">
-        AROGYA CARD · IDBI Innovate 2026 · Track 3 — MSME Financial Health Score ·
+        AROGYA CARD · IDBI Innovate 2026 · Track 3 - MSME Financial Health Score ·
         synthetic data, mock data-source APIs
       </footer>
     </div>
