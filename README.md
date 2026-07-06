@@ -4,7 +4,7 @@
 
 ![AROGYA CARD](docs/screenshots/arogya-triangle-gupta.png)
 
-**Built for IDBI Innovate 2026 - Track 3: MSME Financial Health Score.**
+**Built for IDBI Innovate 2026 - Track 3: MSME Financial Health Score, By the U-Team**
 
 Runs entirely on **synthetic data we generate** (deterministic, `--seed 42`). External data
 sources are **mock APIs** designed to swap for the IDBI sandbox endpoints in phase 2.
@@ -72,7 +72,7 @@ Set `ANTHROPIC_API_KEY` (see `.env.example`) to enable LLM-authored documents.
 Alt-data underwriting with human-in-the-loop; RBI IRAC vocabulary; thin-file fairness (no NO-GO purely for missing data).
 
 ## Team & contact
-**The U-Team** - IDBI Innovate 2026 submission. Contact: [arungkind@gmail.com](mailto:arungkind@gmail.com).
+**The U-Team** - IDBI Innovate 2026 submission. Contact: [arungkind@gmail.com](mailto:arungkind@gmail.com), shriramkv@gmail.com, girimercury97@gmail.com, vrsuba@gmail.com.
 
 ---
 _Every AI-generated document in this app ends with: "Draft prepared by AROGYA CARD AI. For officer review - not a final decision."_
