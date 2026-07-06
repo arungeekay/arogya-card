@@ -4,7 +4,7 @@
 
 ![AROGYA CARD](docs/screenshots/arogya-triangle-gupta.png)
 
-**Built for IDBI Innovate 2026 - Track 3: MSME Financial Health Score.**
+**Built for IDBI Innovate 2026 - Track 3: MSME Financial Health Score, By the U-Team**
 
 Runs entirely on **synthetic data we generate** (deterministic, `--seed 42`). External data
 sources are **mock APIs** designed to swap for the IDBI sandbox endpoints in phase 2.
